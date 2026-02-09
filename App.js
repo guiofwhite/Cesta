@@ -6,7 +6,7 @@ export default function App() {
   return (
     <SafeAreaView>
       <Text>Guilherme Marinho</Text>
-      <Sobrenome nome='nego' />
+      <Sobrenome nome='nego trufa' />
     </SafeAreaView>
   );
 }
