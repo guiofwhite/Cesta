@@ -1,22 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View} from 'react-native';
+import {Text, SafeAreaView} from 'react-native';
 import Sobrenome from './src /Telas/Sobrenome';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView>
       <Text>Guilherme Marinho</Text>
-      <Sobrenome />
-      <StatusBar style="auto" />
-    </View>
+      <Sobrenome nome='nego' />
+    </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
